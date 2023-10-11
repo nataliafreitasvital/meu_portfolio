@@ -1,0 +1,167 @@
+body{
+    background: black;
+}
+
+/*para motificar o cabeçario*/
+
+.cabecario{
+    background: rgb(0, 0, 0);
+    color: rgb(140, 118, 181);
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    flex-direction: row;
+    padding: 30px;
+}
+.nome{
+    display: flex;
+    align-items: center;
+    
+ 
+}
+
+.links{
+   color: rgb(0, 0, 0) ;
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+   
+}
+
+.links li a {
+    margin: 5px;
+    color: rgb(140, 118, 181) ;
+    font-size: 30px;
+    text-decoration: none;
+  
+
+}
+/*colocar no projeto*/
+.links a:hover{
+    color: aliceblue;
+}
+
+.sobra{
+    color: black;
+}
+
+.imagem{
+
+    height: 20vw;
+    background-image: url("../img/capa10.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    background: black;
+    align-items: center;
+ 
+    text-align: center;
+   
+}
+
+section p {
+    color: aliceblue;
+}
+
+footer p {
+  
+  
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    
+}
+footer a img {
+   align-items: center;
+   margin: 10px;
+
+}
+
+
+/*edit*/
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,10fr));
+
+
+}
+
+/*edita o titulo natalia freitas*/
+
+#titulo{
+    color:rgb(255, 255, 255)  ;
+    font-size: 30px;
+    margin: 100px;
+}
+/*edita o texto do quem somos*/
+.texto {
+    color:  rgb(140, 118, 181);
+    font-size: 30px;
+    max-width: 15000px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+/*EDITA AS IMAGEMS JAVA,CSS,HTML*/
+
+.imagens p{
+    font-size: 50px;
+    color: aliceblue;
+    margin: 100px;
+}
+.imagens{
+display: flex;
+flex-direction: column;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+   
+}
+.img img{
+    width: 100px;
+    height: 100px;
+}
+
+/*na onde vai ter os sites*/
+.projeto p{
+color: rgb(255, 255, 255);
+font-size: 50px;
+text-align: center;
+
+}
+
+.projetos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fotos1{
+display: flex;
+flex-direction: column;
+margin-bottom: 40px;
+align-items: center;  
+
+}
+
+.fotos1 img{
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 10px; 
+}
+.fotos1 h1{
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+#contatos{
+    color: rgb(140, 118, 181);
+    align-items: center;
+}
