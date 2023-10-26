@@ -6,7 +6,7 @@ body{
 
 .cabecario{
     background: rgb(0, 0, 0);
-    color: rgb(140, 118, 181);
+    color: rgb(255, 255, 255);
     grid-template-columns: repeat(3, 1fr);
     display: grid;
     flex-direction: row;
@@ -15,6 +15,7 @@ body{
 .nome{
     display: flex;
     align-items: center;
+    color: rgb(136, 96, 196);
     
  
 }
@@ -29,7 +30,7 @@ body{
 
 .links li a {
     margin: 5px;
-    color: rgb(140, 118, 181) ;
+    color: rgb(136, 96, 196) ;
     font-size: 30px;
     text-decoration: none;
   
@@ -41,16 +42,18 @@ body{
 }
 
 .sobra{
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
+/*
 .imagem{
 
     height: 20vw;
-    background-image: url("../img/capa10.PNG");
+    background-image: url("../img/IMG_20230609_185408_793.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+*/
 
 footer{
     background: black;
@@ -96,7 +99,7 @@ footer a img {
 }
 /*edita o texto do quem somos*/
 .texto {
-    color:  rgb(140, 118, 181);
+    color:  rgb(255, 255, 255);
     font-size: 30px;
     max-width: 15000px;
     margin: 0 auto;
@@ -162,6 +165,24 @@ header {
     justify-content: center;
 }
 #contatos{
-    color: rgb(140, 118, 181);
+    color: rgb(255, 255, 255);
     align-items: center;
 }
+/*edita a minha foto que fica embaixo na nav*/
+
+.minhafoto img{
+    border-radius: 15vh;
+    height: 560px;
+   
+    
+}
+
+.quemsou{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.textoefoto{
+margin-left: 45px;
+}
+
